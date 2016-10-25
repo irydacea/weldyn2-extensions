@@ -71,7 +71,7 @@ class main_listener implements EventSubscriberInterface
 
 			if ($cfg_id == 'max_sig_chars')
 			{
-				$cfg['signaturelinecap_max_line_count'] = array(
+				$cfg['max_sig_lines'] = array(
 					'lang'			=> 'SIGNATURELINECAP_MAX_SIG_LINES',
 					'validate'		=> 'int:0:9999',
 					'type'			=> 'number:0:9999',
@@ -96,7 +96,7 @@ class main_listener implements EventSubscriberInterface
 			return;
 		}
 
-		$max_sig_line_count = (int)$this->config['signaturelinecap_max_line_count'];
+		$max_sig_line_count = (int)$this->config['max_sig_lines'];
 
 		if ($max_sig_line_count == 0)
 		{

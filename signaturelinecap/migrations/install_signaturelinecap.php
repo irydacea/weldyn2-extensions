@@ -14,7 +14,7 @@ class install_signaturelinecap extends \phpbb\db\migration\migration
 {
 	public function effectively_installed()
 	{
-		return isset($this->config['signaturelinecap_max_line_count']);
+		return isset($this->config['max_sig_lines']);
 	}
 
 	static public function depends_on()
@@ -25,7 +25,7 @@ class install_signaturelinecap extends \phpbb\db\migration\migration
 	public function update_data()
 	{
 		return array(
-			array('config.add', array('signaturelinecap_max_line_count', 0)),
+			array('config.add', array('max_sig_lines', 0)),
 		);
 	}
 }
