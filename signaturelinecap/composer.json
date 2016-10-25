@@ -1,0 +1,26 @@
+{
+    "name": "wesnoth/signaturelinecap",
+    "type": "phpbb-extension",
+    "description": "Establishes a line count limit on user signatures.",
+    "homepage": "https://www.wesnoth.org/",
+    "version": "0.0.1-dev",
+    "time": "2016-08-31",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ignacio R. Morelle",
+            "email": "shadowm@wesnoth.org",
+            "homepage": "http://shadowm.ai0867.net/",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Signature Line Cap",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.9,<3.2.0@dev"
+        }
+    }
+}

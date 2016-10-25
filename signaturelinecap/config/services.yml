@@ -1,0 +1,10 @@
+services:
+    wesnoth.signaturelinecap.listener:
+        class: wesnoth\signaturelinecap\event\main_listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+            - '@config'
+        tags:
+            - { name: event.listener }
