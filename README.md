@@ -27,6 +27,9 @@ List of extensions by directory
 
  * `signaturelinecap/` (Signature Line Cap):
    Implements a line count limit for user signatures.
+ * `registrationage/` (Registration Age):
+   Very crude extension that adds age restriction language to the registration
+   terms page.
 
 
 Installing
