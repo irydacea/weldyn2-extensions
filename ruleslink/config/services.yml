@@ -1,0 +1,11 @@
+services:
+    wesnoth.registrationage.listener:
+        class: wesnoth\ruleslink\event\main_listener
+        arguments:
+            - '@config'
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
