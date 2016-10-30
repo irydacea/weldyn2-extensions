@@ -1,0 +1,26 @@
+{
+    "name": "wesnoth/profileregistrationip",
+    "type": "phpbb-extension",
+    "description": "Displays the account registration IP in user profiles when viewed by admins.",
+    "homepage": "https://www.wesnoth.org/",
+    "version": "0.0.1-dev",
+    "time": "2016-10-30",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ignacio R. Morelle",
+            "email": "shadowm@wesnoth.org",
+            "homepage": "http://shadowm.ai0867.net/",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Profile Registration IP",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.10,<3.2.0@dev"
+        }
+    }
+}

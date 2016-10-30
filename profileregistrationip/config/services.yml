@@ -1,0 +1,9 @@
+services:
+    wesnoth.profileregistrationip.listener:
+        class: wesnoth\profileregistrationip\event\main_listener
+        arguments:
+            - '@template'
+            - '@user'
+            - '@auth'
+        tags:
+            - { name: event.listener }
