@@ -1,0 +1,9 @@
+services:
+    wesnoth.glamdrol.listener:
+        class: wesnoth\glamdrol\event\main_listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }
