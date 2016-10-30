@@ -1,5 +1,5 @@
 services:
-    wesnoth.registrationage.listener:
+    wesnoth.ruleslink.listener:
         class: wesnoth\ruleslink\event\main_listener
         arguments:
             - '@config'
