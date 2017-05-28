@@ -1,0 +1,15 @@
+services:
+    wesnoth.banhammer.listener:
+        class: wesnoth\banhammer\event\banhammer_listener
+        arguments:
+            - '@template'
+            - '@user'
+            - '@dbal.conn'
+            - '@auth'
+            - '@request'
+            - '@cache.driver'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+            - '@config'            
+        tags:
+            - { name: event.listener }
