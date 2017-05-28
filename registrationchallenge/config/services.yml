@@ -1,0 +1,9 @@
+services:
+    wesnoth.registrationchallenge.listener:
+        class: wesnoth\registrationchallenge\event\main_listener
+        arguments:
+            - '@template'
+            - '@user'
+            - '@request'
+        tags:
+            - { name: event.listener }

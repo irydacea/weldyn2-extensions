@@ -1,0 +1,26 @@
+{
+    "name": "wesnoth/registrationchallenge",
+    "type": "phpbb-extension",
+    "description": "Adds an extra anti-spam challenge during account registration.",
+    "homepage": "https://www.wesnoth.org/",
+    "version": "0.0.1-dev",
+    "time": "2017-05-28",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ignacio R. Morelle",
+            "email": "shadowm@wesnoth.org",
+            "homepage": "http://shadowm.ai0867.net/",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Registration Challenge",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0"
+        }
+    }
+}
