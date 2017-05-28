@@ -20,7 +20,7 @@
     "extra": {
         "display-name": "Glamdrol Style Integration",
         "soft-require": {
-            "phpbb/phpbb": ">=3.1.10,<3.2.0@dev"
+            "phpbb/phpbb": ">=3.2.0"
         }
     }
 }
