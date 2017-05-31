@@ -20,7 +20,7 @@
     "extra": {
         "display-name": "Signature Line Cap",
         "soft-require": {
-            "phpbb/phpbb": ">=3.1.9,<3.2.0@dev"
+            "phpbb/phpbb": ">=3.1.9"
         }
     }
 }
