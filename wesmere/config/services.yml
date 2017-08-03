@@ -1,0 +1,9 @@
+services:
+    wesnoth.wesmere.listener:
+        class: wesnoth\wesmere\event\main_listener
+        arguments:
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }

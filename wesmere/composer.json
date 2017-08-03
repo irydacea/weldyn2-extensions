@@ -1,0 +1,26 @@
+{
+    "name": "wesnoth/wesmere",
+    "type": "phpbb-extension",
+    "description": "Extends board styles to integrate with the new Wesnoth.org site style.",
+    "homepage": "https://www.wesnoth.org/",
+    "version": "0.0.1-dev",
+    "time": "2017-08-03",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ignacio R. Morelle",
+            "email": "shadowm@wesnoth.org",
+            "homepage": "http://shadowm.ai0867.net/",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Wesmere Site Integration",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0"
+        }
+    }
+}
