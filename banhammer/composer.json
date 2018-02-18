@@ -25,6 +25,10 @@
             "homepage": "https://phpbbmodders.net",
             "email": "jari@tumba25.net",
             "role": "Developer"
+        },
+        {
+            "name": "Iris Morelle",
+            "role": "Wesnoth.org-specific changes"
         }
     ],
     "require": {
