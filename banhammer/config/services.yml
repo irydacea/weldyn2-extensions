@@ -2,14 +2,29 @@ services:
     wesnoth.banhammer.listener:
         class: wesnoth\banhammer\event\banhammer_listener
         arguments:
+            - '@auth'
+            - '@cache.driver'
+            - '@config'
+            - '@dbal.conn'
+            - '@request'
             - '@template'
             - '@user'
-            - '@dbal.conn'
-            - '@auth'
-            - '@request'
-            - '@cache.driver'
+            - '@wesnoth.banhammer.core.bantime'
             - '%core.root_path%'
-            - '%core.php_ext%'
-            - '@config'            
+            - '%core.php_ext%'            
         tags:
             - { name: event.listener }
+    wesnoth.banhammer.admin.controller:
+        class: wesnoth\banhammer\controller\admin_controller
+        arguments:
+            - '@config'
+            - '@dbal.conn'
+            - '@request'
+            - '@template'
+            - '@user'
+            - '@log'
+            - '@wesnoth.banhammer.core.bantime'
+    wesnoth.banhammer.core.bantime:
+        class:  wesnoth\banhammer\core\bantime
+        arguments:
+            - '@user'
