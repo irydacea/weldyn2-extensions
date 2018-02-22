@@ -3,7 +3,7 @@
  *
  * phpBB Signature Line Cap extension for Wesnoth.org
  *
- * @copyright (c) 2016 Ignacio R. Morelle
+ * @copyright (c) 2016 - 2018 Iris Morelle
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */

@@ -3,7 +3,7 @@
  *
  * phpBB Wesmere style integration extension for Wesnoth.org
  *
- * @copyright (c) 2017 Ignacio R. Morelle
+ * @copyright (c) 2017 - 2018 Iris Morelle
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
