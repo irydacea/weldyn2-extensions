@@ -1,0 +1,7 @@
+services:
+    wesnoth.privatemessageip.listener:
+        class: wesnoth\privatemessageip\event\listener
+        arguments:
+            - '@auth'
+        tags:
+            - { name: event.listener }
