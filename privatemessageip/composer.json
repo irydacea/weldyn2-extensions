@@ -1,7 +1,7 @@
 {
     "name": "wesnoth/privatemessageip",
     "type": "phpbb-extension",
-    "description": "Displays the sender's IP address to PM receipients with the ability to see post IPs.",
+    "description": "Displays the sender's IP address to PM recipients with the ability to see post IPs.",
     "homepage": "https://www.wesnoth.org/",
     "version": "0.0.1-dev",
     "time": "2018-03-04",
