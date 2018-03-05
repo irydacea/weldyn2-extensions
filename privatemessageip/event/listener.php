@@ -20,8 +20,6 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 class listener implements EventSubscriberInterface
 {
 	protected $auth;
-	protected $db;
-	protected $template;
 
 	static public function getSubscribedEvents()
 	{
