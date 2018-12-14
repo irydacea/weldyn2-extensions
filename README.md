@@ -25,9 +25,6 @@ new security vulnerabilities. **USE AT YOUR OWN RISK.**
 List of extensions by directory
 -------------------------------
 
- * `banhammer/` (Ban Hammer):
-   A custom fork of the [Ban Hammer][4] extension with some minor changes to
-   suit Wesnoth.org's needs better.
  * `privatemessageip/` (Private Message Sender IP):
    Adds an IP field to the profile display on UCP private message views
    including the author's IP, to make this information readily available to
