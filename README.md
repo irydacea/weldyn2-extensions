@@ -29,6 +29,10 @@ List of extensions by directory
    Adds an IP field to the profile display on UCP private message views
    including the author's IP, to make this information readily available to
    moderators and administrators without having to report the PM first.
+ * `profilewesnothd/` (Wesnoth MP Profile Info):
+   Enables the last MP server join time to be displayed for each account where
+   available and allowed by the account settings/the current viewing user's
+   permissions.
  * `profileregistrationip/` (Profile Registration IP):
    Enables administrators with the Can Manage Users permission to see the IP
    address a user registered with on their profile page.

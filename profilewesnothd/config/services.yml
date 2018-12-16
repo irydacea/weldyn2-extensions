@@ -1,0 +1,11 @@
+services:
+    wesnoth.profilewesnothd.listener:
+        class: wesnoth\profilewesnothd\event\main_listener
+        arguments:
+            - '@config'
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@dbal.conn'
+        tags:
+            - { name: event.listener }

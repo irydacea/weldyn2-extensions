@@ -1,0 +1,25 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_ACP_PROFILEWESNOTHD_SETTINGS}</h1>
+
+<!-- IF ERROR -->
+	<div class="errorbox"><h3>{L_WARNING}</h3>
+		<p>{ERROR}</p>
+	</div>
+<!-- ENDIF -->
+
+<form id="acp_profilewesnothd" method="post" action="{U_ACTION}">
+	<fieldset>
+		<legend>{L_ACP_PROFILEWESNOTHD_SETTINGS}</legend>
+		<dl>
+			<dt><label for="profilewesnothd_tblname">{L_ACP_PROFILEWESNOTHD_TABLE_NAME}{L_COLON}</label><br /><span>{L_ACP_PROFILEWESNOTHD_TABLE_NAME_EXPLAIN}</span></dt>
+			<dd><input type="text" id="profilewesnothd_tblname" name="profilewesnothd_tblname" value="{PROFILEWESNOTHD_TABLE_NAME}" /></dd>
+		</dl>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+<!-- INCLUDE overall_footer.html -->
