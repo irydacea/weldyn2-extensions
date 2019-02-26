@@ -34,6 +34,6 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'RULESLINK_RULES'			=> 'Posting Guidelines',
-	'RULESLINK_RULES_EXPLAIN'	=> 'View the Posting Guidelines',
+	'RULESLINK_RULES'			=> 'Community Guidelines',
+	'RULESLINK_RULES_EXPLAIN'	=> 'View the Community Guidelines',
 ));
