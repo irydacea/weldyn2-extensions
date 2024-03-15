@@ -70,7 +70,7 @@ class main_listener implements EventSubscriberInterface
 			$username = $event['member']['username'];
 
 			$sql = 'SELECT user_lastvisit FROM ' . $this->db->sql_escape($wesnothd_tblname) . ' ' .
-			       "WHERE username = '" . $this->db->sql_escape(utf8_clean_string($username)) . "'";
+			       "WHERE LOWER(username) = '" . $this->db->sql_escape(utf8_clean_string($username)) . "'";
 			$result = $this->db->sql_query($sql);
 			$last_mp_join = (int)$this->db->sql_fetchfield('user_lastvisit');
 			$this->db->sql_freeresult($result);
