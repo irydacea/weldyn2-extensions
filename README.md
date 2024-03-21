@@ -13,7 +13,7 @@ the phpBB codebase until upstream adds the required functionality for porting
 them to the extensions framework. These modifications can be found as part of
 the commit history of the [Weldyn2][3] repository.
 
-[3]: <https://github.com/shikadiqueen/weldyn2>
+[3]: <https://github.com/irydacea/weldyn2>
 
 **NOTE:** These extensions have not been submitted to the phpBB extensions
 database for review, and they are provided here for reference purposes only
